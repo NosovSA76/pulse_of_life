@@ -39,7 +39,7 @@ export const UserIcon = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-   background-color: black;
+  background-color: black;
 `
 export const AseIcon = styled.button`
   width: 37px;

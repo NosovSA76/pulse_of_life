@@ -14,18 +14,22 @@ const Header = () => {
       </Logo>
       <UserActive>
       <AseIcon>
-      <svg width="24" height="24">
+        <svg width="24" height="24">
           <use href={`${sprite}#icon-settings-01`} />{' '}
-        </svg></AseIcon>
+        </svg>
+        </AseIcon>
+
         <UserIcon>
         <svg width="21" height="21">
           <use href={`${spriteduo}#icon-gridicons_user`} />{' '}
         </svg>
         </UserIcon>
+
         <AseIcon>
         <svg width="24" height="24">
           <use href={`${spriteduo}#icon-menu-02`} />{' '}
-        </svg></AseIcon>
+        </svg>
+        </AseIcon>
         </UserActive>
     </FullHeader>
   );

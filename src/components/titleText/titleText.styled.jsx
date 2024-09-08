@@ -7,6 +7,8 @@ export const TitleTextBlock = styled.div`
   color: white;
   margin-top: 90px;
   margin-bottom: 40px;
+    position: relative;
+  z-index: 1;
 `;
 
 export const TitleText = styled.h1`

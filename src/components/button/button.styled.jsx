@@ -11,6 +11,8 @@ export const Button = styled.button`
   opacity: 0px;
  background-color: ${(props) => props.primaryColor || 'black'};
   color: white;
+  position: relative;
+  z-index: 1;
 
   &:hover,
   &:focus {

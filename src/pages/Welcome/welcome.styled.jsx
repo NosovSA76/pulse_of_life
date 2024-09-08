@@ -5,4 +5,6 @@ export const Welcome = styled.div`
   height: 812px;
   background-color: black;
   background-size: cover;
+  overflow: hidden;
+  position: relative;
 `;

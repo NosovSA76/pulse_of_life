@@ -3,6 +3,7 @@ import { Welcome } from './welcome.styled';
 import ButtonIn from '../../components/button/button';
 import Header from '../../components/header/header';
 import TitleWelcome from '../../components/titleText/titleText'
+import StatisticInfo from '../../components/StatisticInfo/StatisticInfo';
 
 const WelcomePage = () => {
   const [activeButton, setActiveButton] = useState('singIn');
@@ -28,6 +29,7 @@ const WelcomePage = () => {
       >
         Sing Up
       </ButtonIn>
+      <StatisticInfo></StatisticInfo>
     </Welcome>
   );
 };
