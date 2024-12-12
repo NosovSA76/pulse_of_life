@@ -19,7 +19,6 @@ const SingUpPage = () => {
     <SingUp>
       <FulLogo />
       <SingUpMain>
-        {/* Передаємо стейти і функції для оновлення до SingUpText */}
         <SingUpText
           name={name}
           email={email}

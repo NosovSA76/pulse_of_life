@@ -7,7 +7,7 @@ export const TitleTextBlock = styled.div`
   color: white;
   position: relative;
   z-index: 1;
-  padding: 20px;
+  // padding: 20px;
 `;
 
 export const SingUpTitleText = styled.h2`
@@ -21,7 +21,7 @@ export const SingUpTitleText = styled.h2`
 `;
 
 export const BodyTextMobil = styled.span`
-  // width: 335px;
+  width: 335px;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -33,11 +33,16 @@ export const BodyTextMobil = styled.span`
 `;
 
 export const Input = styled.input`
-  width: 100%;
+  width: 335px;
+  height: 46px;
   padding: 10px;
-  margin: 10px 0;
+  border-radius: 12px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  background-color: black;
+  // color: white;
+  font-size: 16px;
+  opacity: 1;
+  box-sizing: border-box;
 `;
 
 

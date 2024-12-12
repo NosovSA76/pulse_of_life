@@ -12,21 +12,21 @@ const SingUpText = ({ name, email, password, setName, setEmail, setPassword }) =
       <Input
         type="text"
         placeholder="Name"
-        value={name}
+        // value={name}
         onChange={(e) => setName(e.target.value)}
       />
 
       <Input
         type="email"
         placeholder="Email"
-        value={email}
+        // value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
 
       <Input
         type="password"
         placeholder="Password"
-        value={password}
+        // value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
     </TitleTextBlock>
