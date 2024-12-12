@@ -1,6 +1,6 @@
 import { styled } from 'styled-components';
 
-export const Welcome = styled.div`
+export const SingUp = styled.div`
   width: 375px;
   height: 812px;
   background-color: black;
@@ -10,11 +10,12 @@ export const Welcome = styled.div`
   padding: 20px;
 `;
 
-export const PngIcon = styled.img`
-  width: 98px;
-  height: 35px;
-  position: absolute;
-  top: 170px;
-  left: 11px;
-  z-index: 2;
+export const SingUpMain = styled.div`
+width: 335px;
+height: 368px;
+margin-top: 90px;
+display: flex;
+flex-direction: column;
+gap: 28px;
+opacity: 0px;
 `;

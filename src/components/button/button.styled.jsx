@@ -14,7 +14,7 @@ export const Button = styled.button`
   position: relative;
   z-index: 1;
 
-  &:hover,
-  &:focus {
+  &:hover
+ {
     background-color: ${(props) => props.secondaryColor || 'rgba(230, 83, 60, 1)'};
 `;

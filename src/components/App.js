@@ -1,8 +1,28 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { lazy, Suspense  } from 'react';
+import { GlobalStyle } from '../styles/GlobalStyle';
 import './App.css';
-import WelcomePage from '../pages/Welcome/welcome';
+
+const Welcome = lazy(() => import('../pages/Welcome/welcome'));
+const SignUp = lazy(() => import('../pages/SingUp/SingUp'));
+
+// import WelcomePage from '../pages/Welcome/welcome';
 
 function App() {
-  return <WelcomePage></WelcomePage>;
+  return (
+    <>
+    <GlobalStyle />
+    <Suspense fallback={<div>Завантаження...</div>}>
+      {/* Обгортка з Router для забезпечення контексту маршрутизації */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="/sign-up" element={<SignUp />} />
+        </Routes>
+      </Router>
+    </Suspense>
+    </>
+  );
 }
 
 export default App;

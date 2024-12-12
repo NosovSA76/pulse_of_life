@@ -1,13 +1,9 @@
 import React from 'react';
 import { Button } from './button.styled';
 
-const ButtonIn = ({ children, primaryColor, secondaryColor, onMouseEnter }) => {
-  return <Button
-  primaryColor={primaryColor}
-  secondaryColor={secondaryColor}
-  onMouseEnter={onMouseEnter}>
-    { children }
-    </Button>;
+
+const ButtonIn = ({ children, onClick }) => {
+  return <Button onClick={onClick}>{children}</Button>;
 };
 
 export default ButtonIn;

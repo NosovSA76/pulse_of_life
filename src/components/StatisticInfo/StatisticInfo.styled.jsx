@@ -50,17 +50,17 @@ export const VideoTutorialTextBlock = styled.div`
   background: #303030;
 `;
 
-export const NumbersOfVideos = styled.text`
+export const NumbersOfVideos = styled.span`
 font-family: Roboto;
 font-size: 16px;
 font-weight: 700;
 line-height: 18px;
 text-align: left;
-color: #EFEDE8A6;
+color: #EFEDE8;
 display: inline-block;
 `;
 
-export const VideoTutorial = styled.text`
+export const VideoTutorial = styled.span`
 font-family: Roboto;
 font-size: 12px;
 font-weight: 400;
@@ -92,7 +92,19 @@ export const CalorieTextBlock = styled.div`
   align-items: center;
   gap: 8px;
 `;
-export const CalorieNumber = styled.text`
+
+export const CalorieIcon = styled.div`
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  background: #EFA082;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const CalorieNumber = styled.span`
   font-family: Roboto;
   font-size: 24px;
   font-weight: 700;
@@ -103,7 +115,7 @@ export const CalorieNumber = styled.text`
   display: block;
 `;
 
-export const CalorieText = styled.text`
+export const CalorieText = styled.span`
   font-family: Roboto;
   font-size: 12px;
   font-weight: 700;
