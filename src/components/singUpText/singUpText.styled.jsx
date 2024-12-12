@@ -7,7 +7,7 @@ export const TitleTextBlock = styled.div`
   color: white;
   position: relative;
   z-index: 1;
-  // padding: 20px;
+  padding: 20px;
 `;
 
 export const SingUpTitleText = styled.h2`
