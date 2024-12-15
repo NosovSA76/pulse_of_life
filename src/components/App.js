@@ -16,7 +16,7 @@ function App() {
       {/* Обгортка з Router для забезпечення контексту маршрутизації */}
       <Router>
         <Routes>
-          <Route path="pulse_of_life/" element={<Welcome />} />
+          <Route path="/pulse_of_life" element={<Welcome />} />
           <Route path="/sign-up" element={<SignUp />} />
         </Routes>
       </Router>
