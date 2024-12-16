@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pulse_of_life/static/css/main.f8fd6cb4.css",
+    "main.js": "/pulse_of_life/static/js/main.30e35a69.js",
+    "static/js/337.ec2b5441.chunk.js": "/pulse_of_life/static/js/337.ec2b5441.chunk.js",
+    "static/js/113.c6ba138c.chunk.js": "/pulse_of_life/static/js/113.c6ba138c.chunk.js",
+    "static/js/453.f9bd9209.chunk.js": "/pulse_of_life/static/js/453.f9bd9209.chunk.js",
+    "static/js/701.76a6bce7.chunk.js": "/pulse_of_life/static/js/701.76a6bce7.chunk.js",
+    "static/media/backgraund.jpg": "/pulse_of_life/static/media/backgraund.910dd783c48f2b4efb88.jpg",
+    "static/media/icons.svg": "/pulse_of_life/static/media/icons.adea79452345a9e976a538667e2d2e8a.svg",
+    "index.html": "/pulse_of_life/index.html",
+    "main.f8fd6cb4.css.map": "/pulse_of_life/static/css/main.f8fd6cb4.css.map",
+    "main.30e35a69.js.map": "/pulse_of_life/static/js/main.30e35a69.js.map",
+    "337.ec2b5441.chunk.js.map": "/pulse_of_life/static/js/337.ec2b5441.chunk.js.map",
+    "113.c6ba138c.chunk.js.map": "/pulse_of_life/static/js/113.c6ba138c.chunk.js.map",
+    "453.f9bd9209.chunk.js.map": "/pulse_of_life/static/js/453.f9bd9209.chunk.js.map",
+    "701.76a6bce7.chunk.js.map": "/pulse_of_life/static/js/701.76a6bce7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8fd6cb4.css",
+    "static/js/main.30e35a69.js"
+  ]
+}
