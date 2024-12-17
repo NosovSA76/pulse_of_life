@@ -1,6 +1,6 @@
 import React from 'react';
 import { FullHeader, UserActive, UserIcon, AseIcon } from './header.styled';
-import FulLogo from 'components/logo/Logo';
+import FulLogo from 'components/unloginComponents/logo/Logo';
 import sprite from '../../image/icons.svg';
 import spriteduo from '../../image/iconsduo.svg';
 

@@ -5,6 +5,8 @@ import './App.css';
 
 const Welcome = lazy(() => import('../pages/Welcome/welcome'));
 const SignUp = lazy(() => import('../pages/SingUp/SingUp'));
+const SignIn = lazy(() => import('../pages/SingIn/SingIn'));
+const User = lazy(() => import('../pages/UserPage/user'));
 
 // import WelcomePage from '../pages/Welcome/welcome';
 
@@ -18,6 +20,8 @@ function App() {
         <Routes>
           <Route path="/pulse_of_life" element={<Welcome />} />
           <Route path="/sign-up" element={<SignUp />} />
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/User" element={<User />} />
         </Routes>
       </Router>
     </Suspense>

@@ -1,11 +1,11 @@
 import { styled } from 'styled-components';
 
 export const FullHeader = styled.header`
-  width: 375px;
+  width: 335px;
   height: 61px;
   background-color: black;
   display: flex;
-  padding: 0 20px;
+  //  padding: 0 20px;
   box-sizing: border-box;
   align-items: center;
   justify-content: space-between;

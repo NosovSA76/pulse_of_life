@@ -38,6 +38,7 @@ padding: 0;
 border: 0;
 display: inline-block;
 background-color: #EF8964;
+cursor: pointer;
 
  &:hover,
   &:focus {

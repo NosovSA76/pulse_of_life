@@ -1,5 +1,5 @@
 import React from 'react';
-import sprite from '../../image/icons.svg';
+import sprite from '../../../image/icons.svg';
 import { CalorieIcon, StatisticInfoBlock, VideoTutorialBlock, VideoTutorialTextBlock, NumbersOfVideos, VideoTutorial, IconPlay, CalorieStatistics, CalorieTextBlock, CalorieNumber, CalorieText} from './StatisticInfo.styled'
 
 const StatisticInfo = () => {

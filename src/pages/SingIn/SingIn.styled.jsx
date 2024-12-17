@@ -1,6 +1,6 @@
 import { styled } from 'styled-components';
 
-export const SingUp = styled.div`
+export const SingIn = styled.div`
   width: 375px;
   height: 812px;
   background-color: black;
@@ -10,14 +10,16 @@ export const SingUp = styled.div`
   padding: 20px;
 `;
 
-export const SingUpMain = styled.div`
+export const SingInMain = styled.div`
 width: 335px;
-height: 368px;
+height: 282px;
 margin-top: 90px;
 display: flex;
 flex-direction: column;
 gap: 28px;
 opacity: 0px;
+position: relative;
+z-index: 1;
 `;
 
 export const FooterText = styled.div`

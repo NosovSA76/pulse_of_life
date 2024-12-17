@@ -1,12 +1,22 @@
 import { styled } from 'styled-components';
 
-export const TitleTextBlock = styled.div`
+export const SingUpMain = styled.div`
   width: 335px;
   height: 298px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+   z-index: 1;
+`
+export const TitleTextBlock = styled.div`
+  width: 335px;
+  height: 96px;
   background-color: black;
   color: white;
   position: relative;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
   // padding: 20px;
 `;
 
@@ -31,18 +41,25 @@ export const BodyTextMobil = styled.span`
   text-decoration-skip-ink: none;
   color: #EFEDE84D;
 `;
+export const InputBlock = styled.form`
+  width: 335px;
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+`
 
 export const Input = styled.input`
   width: 335px;
   height: 46px;
-  padding: 10px;
+  padding: 14px;
   border-radius: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(239, 237, 232, 0.3);
   background-color: black;
-  // color: white;
-  font-size: 16px;
-  opacity: 1;
+  font-size: 14px;
   box-sizing: border-box;
+  opacity: 0.6;
+  color: white;
 `;
 
 

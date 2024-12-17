@@ -1,7 +1,7 @@
 import React from 'react';
 import  {Logo, PPIcon} from './Logo.styled';
-import sprite from '../../image/icons.svg';
-import PowerPulse from '../../image/PowerPulse.png';
+import sprite from '../../../image/icons.svg';
+import PowerPulse from '../../../image/PowerPulse.png';
 
 
 
