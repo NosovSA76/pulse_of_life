@@ -1,0 +1,13 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-gridicons_user" viewBox="0 0 31 32">
+<path fill="#000000" style="fill: var(--color1, #000000)" d="M0 0h31.484v32h-31.484v-32z"></path>
+<path fill="#000000" style="fill: var(--color2, #000000)" d="M-81.032-94.452h193.548v724.129h-193.548v-724.129z"></path>
+<path fill="#000000" style="fill: var(--color3, #000000); stroke: var(--color4, #000000)" opacity="0.3" stroke="#000000" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.5161" d="M38.968 16c0 12.685-10.283 22.968-22.968 22.968s-22.968-10.283-22.968-22.968c0-12.685 10.283-22.968 22.968-22.968s22.968 10.283 22.968 22.968z"></path>
+<path fill="#efede8" style="fill: var(--color5, #efede8)" opacity="0.1" d="M15.743 5.333c1.392 0 2.726 0.562 3.71 1.562s1.537 2.357 1.537 3.771-0.553 2.771-1.537 3.771c-0.984 1-2.319 1.562-3.71 1.562s-2.726-0.562-3.71-1.562c-0.984-1-1.537-2.357-1.537-3.771s0.553-2.771 1.537-3.771c0.984-1 2.319-1.562 3.71-1.562zM15.743 26.667c0 0 10.495 0 10.495-2.667 0-3.2-5.116-6.667-10.495-6.667s-10.495 3.467-10.495 6.667c0 2.667 10.495 2.667 10.495 2.667z"></path>
+</symbol>
+<symbol id="icon-menu-02" viewBox="0 0 32 32">
+<path fill="#E6533C" stroke="#e6533c" style="stroke: var(--color4, #E6533C)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M4 16h16M4 8h24M4 24h24"></path>
+</symbol>
+</defs>
+</svg>
